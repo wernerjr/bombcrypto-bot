@@ -347,7 +347,7 @@ def login():
         logger('👤 Connect button detected in modal login, logging in!')
         login_attempts = login_attempts + 1
 
-    if clickBtn(images['select-wallet-2'], timeout=8):
+    if clickBtn(images['select-wallet-2'], timeout=10):
         # sometimes the sign popup appears imediately
         login_attempts = login_attempts + 1
         # print('sign button clicked')
